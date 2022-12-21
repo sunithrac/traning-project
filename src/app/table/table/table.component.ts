@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 export interface PeriodicElement {
   name: string;
@@ -30,6 +30,8 @@ export class TableComponent {
   public displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   public data = ELEMENT_DATA;
 
-  constructor() { }
+  constructor() {
+    /* No content */
+  }
 
 }

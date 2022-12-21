@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-sonarqube-footer',
@@ -7,5 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent {
 
-  constructor() { console.log('jjjjj')}
+  constructor() {
+    /* No content */
+  }
 }
